@@ -37,7 +37,7 @@ const weather = require('openweather-apis');
 
 	// check http://openweathermap.org/appid#get for get the APPID
     // go to openweathermap.org and create an account to get your own ID
- 	weather.setAPPID("Your APPID");
+ 	weather.setAPPID("your APPID");
 
     maxApi.addHandler("getWeather", () => {
         weather.setCoordinate(coords[0], coords[1]);
